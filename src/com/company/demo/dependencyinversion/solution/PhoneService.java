@@ -1,6 +1,6 @@
 package com.company.demo.dependencyinversion.solution;
 
-@Container
+@Component
 public class PhoneService {
     @Autowired
     private Phone phone1;

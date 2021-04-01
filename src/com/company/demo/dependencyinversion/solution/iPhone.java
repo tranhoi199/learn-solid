@@ -1,5 +1,6 @@
 package com.company.demo.dependencyinversion.solution;
 
+@Component
 public class iPhone implements Phone{
     @Override
     public void introduce() {
